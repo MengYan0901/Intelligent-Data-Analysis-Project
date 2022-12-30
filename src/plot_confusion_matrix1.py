@@ -19,7 +19,7 @@ def plot_confusion_matrix(cm, labels_name, title, acc):
     plt.ylabel('Target')
     plt.xlabel('Prediction')
     plt.tight_layout()
-    THIS_FOLDER = os.path.dirname(os.path.abspath(__file__)) + '/Confusion_matrix/raf-db'
+    THIS_FOLDER = os.path.dirname(os.path.abspath(__file__)) + '/Confusion_matrix/raf-db1'
     plt.savefig(os.path.join(THIS_FOLDER, "acc" + str(acc) + ".png"), format='png')
     plt.show()
 
